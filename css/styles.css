@@ -270,6 +270,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 .mobile-menu-contacts-list {
   margin-bottom: 48px;
@@ -789,9 +790,6 @@ img {
   margin-left: 16px;
 }
 @media screen and (min-width: 768px) {
-  /* .page-footer {
-    padding-left: 92px;
-  } */
   .footer-text {
     width: 264px;
   }
@@ -838,6 +836,12 @@ img {
   }
   .footer-social-container {
     margin-right: 80px;
+  }
+  .footer-logo-container {
+    margin-bottom: 0;
+  }
+  .footer-social-container {
+    margin-bottom: 0;
   }
 }
 /* footer end */
